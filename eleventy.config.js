@@ -3,8 +3,10 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/images");
 
+  const isCI = process.env.CI === "true";
+
   return {
-    pathPrefix: "/tiago-mecharena/",
+    pathPrefix: isCI ? "/tiago-mecharena/" : "/",
     dir: {
       input: "src",
       includes: "_includes",
