@@ -1,0 +1,110 @@
+---
+layout: base.njk
+title: "MECH ARENA - Portfolio"
+description: "Portfolio de robots mecha - Colección exclusiva de mechs de combate"
+---
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>
+      CONSTRUYE TU
+      <span class="highlight">ARSENAL MECÁNICO</span>
+    </h1>
+    <p>
+      Colección exclusiva de mechs de combate diseñados para dominar el campo de batalla.
+      Cada unidad forjada con precisión letal y tecnología de vanguardia.
+    </p>
+    <div class="hero-stats">
+      {% for stat in heroStats %}
+      <div class="stat">
+        <div class="stat-number">{{ stat.number }}</div>
+        <div class="stat-label">{{ stat.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="mech-showcase">
+    <div class="orbit-ring orbit-ring-1"></div>
+    <div class="orbit-ring orbit-ring-2"></div>
+
+    <div class="connection-lines">
+      <svg>
+        <line x1="50%" y1="50%" x2="10%" y2="15%" />
+        <line x1="50%" y1="50%" x2="90%" y2="15%" />
+        <line x1="50%" y1="50%" x2="5%" y2="55%" />
+        <line x1="50%" y1="50%" x2="95%" y2="45%" />
+        <line x1="50%" y1="50%" x2="15%" y2="85%" />
+        <line x1="50%" y1="50%" x2="85%" y2="80%" />
+      </svg>
+    </div>
+
+    {% for mech in floatingMechs %}
+    <div class="floating-mech {{ mech.class }}">
+      <img src="{{ mech.image }}" alt="{{ mech.alt }}" loading="lazy">
+      <div class="fm-stars">{{ mech.stars }}</div>
+    </div>
+    {% endfor %}
+
+    <div class="mech-hex">
+      <img class="mech-placeholder" src="/images/mechas/Solis.webp" alt="Featured Mech" loading="lazy">
+      <div class="mech-stars">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="coleccion">
+  <h2 class="section-title">ARSENAL COMPLETO</h2>
+  <div class="mech-grid">
+    {% for mech in mechs %}
+    <div class="mech-card mc-{{ mech.color }}">
+      <div class="mech-card-icon">
+        <img src="{{ mech.image }}" alt="{{ mech.name }}" loading="lazy">
+      </div>
+      <h3>{{ mech.name }}</h3>
+      <div class="role">{{ mech.role }}</div>
+      <div class="stars">
+        {% for i in range(mech.stars) %}
+        <span class="star">★</span>
+        {% endfor %}
+        {% for i in range(5 - mech.stars) %}
+        <span class="star empty">★</span>
+        {% endfor %}
+      </div>
+      <div class="level">LVL <span>{{ mech.level }}</span></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section stats-section" id="stats">
+  <h2 class="section-title">RENDIMIENTO EN BATALLA</h2>
+  <div class="stats-grid">
+    {% for stat in stats %}
+    <div class="stat-card">
+      <div class="icon">{{ stat.icon }}</div>
+      <div class="value">{{ stat.value }}</div>
+      <div class="label">{{ stat.label }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="habilidades">
+  <h2 class="section-title">DOMINIO TÁCTICO</h2>
+  <div class="progress-section">
+    {% for skill in skills %}
+    <div class="progress-item">
+      <div class="progress-label">{{ skill.label }}</div>
+      <div class="progress-bar"><div class="progress-fill" data-width="{{ skill.value }}"></div></div>
+      <div class="progress-value">{{ skill.value }}%</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

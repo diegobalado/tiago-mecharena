@@ -1,0 +1,82 @@
+[
+  {
+    "name": "AEGIS",
+    "role": "Tanque de Asalto",
+    "level": 45,
+    "stars": 5,
+    "color": "blue",
+    "image": "/images/mechas/Aegis.webp"
+  },
+  {
+    "name": "DEATHWALKER",
+    "role": "Asesino Legendario",
+    "level": 38,
+    "stars": 4,
+    "color": "purple",
+    "image": "/images/mechas/Deathwalker.webp"
+  },
+  {
+    "name": "ECLIPSE",
+    "role": "Francotirador",
+    "level": 52,
+    "stars": 5,
+    "color": "pink",
+    "image": "/images/mechas/Eclipse.webp"
+  },
+  {
+    "name": "KILLSHOT",
+    "role": "Sigilo & Infiltración",
+    "level": 41,
+    "stars": 4,
+    "color": "green",
+    "image": "/images/mechas/Killshot.webp"
+  },
+  {
+    "name": "LANCER",
+    "role": "Reconocimiento",
+    "level": 50,
+    "stars": 5,
+    "color": "gold",
+    "image": "/images/mechas/Lancer.webp"
+  },
+  {
+    "name": "PARAGON",
+    "role": "Soporte Técnico",
+    "level": 29,
+    "stars": 3,
+    "color": "blue",
+    "image": "/images/mechas/Paragon.webp"
+  },
+  {
+    "name": "PARASITE",
+    "role": "Control de Área",
+    "level": 60,
+    "stars": 5,
+    "color": "purple",
+    "image": "/images/mechas/Parasite.webp"
+  },
+  {
+    "name": "SOLIS",
+    "role": "Guerra Total",
+    "level": 55,
+    "stars": 5,
+    "color": "pink",
+    "image": "/images/mechas/Solis.webp"
+  },
+  {
+    "name": "SURGE",
+    "role": "Defensor",
+    "level": 43,
+    "stars": 4,
+    "color": "green",
+    "image": "/images/mechas/Surge.webp"
+  },
+  {
+    "name": "VORTEX",
+    "role": "Aéreo Táctico",
+    "level": 48,
+    "stars": 5,
+    "color": "gold",
+    "image": "/images/mechas/Vortex.webp"
+  }
+]

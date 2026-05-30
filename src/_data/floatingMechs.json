@@ -1,0 +1,38 @@
+[
+  {
+    "class": "fm-1",
+    "image": "/images/mechas/Aegis.webp",
+    "alt": "Aegis",
+    "stars": "★★★★★"
+  },
+  {
+    "class": "fm-2",
+    "image": "/images/mechas/Deathwalker.webp",
+    "alt": "Deathwalker",
+    "stars": "★★★★☆"
+  },
+  {
+    "class": "fm-3",
+    "image": "/images/mechas/Eclipse.webp",
+    "alt": "Eclipse",
+    "stars": "★★★★★"
+  },
+  {
+    "class": "fm-4",
+    "image": "/images/mechas/Killshot.webp",
+    "alt": "Killshot",
+    "stars": "★★★★★"
+  },
+  {
+    "class": "fm-5",
+    "image": "/images/mechas/Lancer.webp",
+    "alt": "Lancer",
+    "stars": "★★★★☆"
+  },
+  {
+    "class": "fm-6",
+    "image": "/images/mechas/Paragon.webp",
+    "alt": "Paragon",
+    "stars": "★★★★★"
+  }
+]

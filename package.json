@@ -1,0 +1,17 @@
+{
+  "name": "mech-arena-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Portfolio de mechs con 11ty",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "clean": "rm -rf _site"
+  },
+  "keywords": ["11ty", "eleventy", "portfolio", "mech"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

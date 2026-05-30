@@ -1,0 +1,7 @@
+[
+  { "label": "Asalto", "value": 95 },
+  { "label": "Defensa", "value": 78 },
+  { "label": "Estrategia", "value": 88 },
+  { "label": "Sigilo", "value": 82 },
+  { "label": "Ingeniería", "value": 71 }
+]

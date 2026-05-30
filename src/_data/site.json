@@ -1,0 +1,12 @@
+{
+  "title": "MECH ARENA",
+  "subtitle": "PORTFOLIO",
+  "description": "Portfolio de robots mecha - Colección exclusiva de mechs de combate",
+  "footer": "© 2026 MECH ARENA — ALL SYSTEMS OPERATIONAL",
+  "socials": [
+    { "url": "#", "icon": "🐦", "label": "Twitter" },
+    { "url": "#", "icon": "📷", "label": "Instagram" },
+    { "url": "#", "icon": "💼", "label": "LinkedIn" },
+    { "url": "#", "icon": "🎮", "label": "Discord" }
+  ]
+}
