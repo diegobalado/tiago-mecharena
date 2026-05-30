@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
   <meta name="description" {{ 'content="' + description + '"' if description else '' }}>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
 </head>
 <body>
 
@@ -37,6 +37,6 @@
     <p>{{ site.footer }}</p>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="{{ '/js/main.js' | url }}"></script>
 </body>
 </html>
