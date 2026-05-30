@@ -3,6 +3,10 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/images");
 
+  eleventyConfig.addFilter("sortBy", (arr, key) =>
+    [...arr].sort((a, b) => (a[key] ?? 0) - (b[key] ?? 0))
+  );
+
   const isCI = process.env.CI === "true";
 
   return {

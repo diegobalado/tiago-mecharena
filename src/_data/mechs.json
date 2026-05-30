@@ -5,6 +5,7 @@
     "level": 45,
     "stars": 5,
     "color": "blue",
+    "position": 1,
     "image": "/images/mechas/Aegis.webp"
   },
   {
@@ -13,6 +14,7 @@
     "level": 38,
     "stars": 4,
     "color": "purple",
+    "position": 2,
     "image": "/images/mechas/Deathwalker.webp"
   },
   {
@@ -21,6 +23,7 @@
     "level": 52,
     "stars": 5,
     "color": "pink",
+    "position": 3,
     "image": "/images/mechas/Eclipse.webp"
   },
   {
@@ -29,6 +32,7 @@
     "level": 41,
     "stars": 4,
     "color": "green",
+    "position": 4,
     "image": "/images/mechas/Killshot.webp"
   },
   {
@@ -37,6 +41,7 @@
     "level": 50,
     "stars": 5,
     "color": "gold",
+    "position": 5,
     "image": "/images/mechas/Lancer.webp"
   },
   {
@@ -45,6 +50,7 @@
     "level": 29,
     "stars": 3,
     "color": "blue",
+    "position": 6,
     "image": "/images/mechas/Paragon.webp"
   },
   {
@@ -53,6 +59,7 @@
     "level": 60,
     "stars": 5,
     "color": "purple",
+    "position": 7,
     "image": "/images/mechas/Parasite.webp"
   },
   {
@@ -61,6 +68,7 @@
     "level": 55,
     "stars": 5,
     "color": "pink",
+    "position": 8,
     "image": "/images/mechas/Solis.webp"
   },
   {
@@ -69,6 +77,7 @@
     "level": 43,
     "stars": 4,
     "color": "green",
+    "position": 9,
     "image": "/images/mechas/Surge.webp"
   },
   {
@@ -77,6 +86,7 @@
     "level": 48,
     "stars": 5,
     "color": "gold",
+    "position": 10,
     "image": "/images/mechas/Vortex.webp"
   }
 ]
