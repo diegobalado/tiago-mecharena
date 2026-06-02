@@ -41,13 +41,19 @@ description: "Portfolio de robots mecha - Colección exclusiva de mechs de comba
 
     {% for mech in floatingMechs %}
     <div class="floating-mech {{ mech.class }}">
-      <img src="{{ mech.image | url }}" alt="{{ mech.alt }}" loading="lazy">
+      <div class="fm-inner">
+        <img src="{{ mech.image | url }}" alt="{{ mech.alt }}" loading="lazy">
+      </div>
+      <div class="fm-tab"></div>
       <div class="fm-stars">{{ mech.stars }}</div>
     </div>
     {% endfor %}
 
     <div class="mech-hex">
-      <img class="mech-placeholder" src="{{ '/images/mechas/Solis.webp' | url }}" alt="Featured Mech" loading="lazy">
+      <div class="mech-hex-inner">
+        <img class="mech-placeholder" src="{{ '/images/mechas/Solis.webp' | url }}" alt="Featured Mech" loading="lazy">
+      </div>
+      <div class="mech-hex-tab"></div>
       <div class="mech-stars">
         <span class="star">★</span>
         <span class="star">★</span>
@@ -65,7 +71,10 @@ description: "Portfolio de robots mecha - Colección exclusiva de mechs de comba
     {% for mech in mechs | sortBy("position") %}
     <div class="mech-card mc-{{ mech.color }}">
       <div class="mech-card-icon">
-        <img src="{{ mech.image | url }}" alt="{{ mech.name }}" loading="lazy">
+        <div class="mech-card-inner">
+          <img src="{{ mech.image | url }}" alt="{{ mech.name }}" loading="lazy">
+        </div>
+        <div class="mech-card-tab"></div>
       </div>
       <h3>{{ mech.name }}</h3>
       <div class="role">{{ mech.role }}</div>

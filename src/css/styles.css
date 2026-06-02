@@ -200,25 +200,61 @@ nav a:hover::after {
 
 .mech-hex {
   position: relative;
-  width: 320px;
-  height: 380px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  background: linear-gradient(180deg, rgba(0, 195, 255, 0.2), rgba(123, 47, 255, 0.2));
+  width: 350px;
+  height: 303px;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: mechFloat 3s ease-in-out infinite;
-  overflow: hidden;
 }
 
 .mech-hex::before {
   content: '';
   position: absolute;
-  inset: -3px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  background: linear-gradient(180deg, #00c3ff, #7b2fff, #ff00aa);
-  z-index: -1;
+  inset: -2px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: #00c3ff;
+  z-index: 0;
   animation: borderGlow 2s ease-in-out infinite alternate;
+}
+
+.mech-hex::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: #0a0e1a;
+  z-index: 1;
+}
+
+.mech-hex-inner {
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: rgba(10, 14, 26, 0.9);
+  position: relative;
+  z-index: 2;
+}
+
+.mech-hex-inner .mech-placeholder {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mech-hex-tab {
+  position: absolute;
+  top: -4px;
+  left: 29%;
+  width: 44%;
+  height: 8px;
+  z-index: 10;
+  background: linear-gradient(90deg, #00c3ff, #ff00aa);
+  clip-path: polygon(0% 0%, 100% 0%, 87.5% 100%, 12.5% 100%);
 }
 
 @keyframes mechFloat {
@@ -229,12 +265,6 @@ nav a:hover::after {
 @keyframes borderGlow {
   0% { opacity: 0.5; }
   100% { opacity: 1; }
-}
-
-.mech-placeholder {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .mech-stars {
@@ -278,53 +308,84 @@ nav a:hover::after {
 /* Floating mech cards */
 .floating-mech {
   position: absolute;
-  width: 70px;
-  height: 80px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  width: 80px;
+  height: 69px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s;
-  overflow: hidden;
-}
-
-.floating-mech img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .floating-mech::before {
   content: '';
   position: absolute;
   inset: -2px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  z-index: -1;
-  opacity: 0.6;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: #00c3ff;
+  z-index: 0;
+  opacity: 0.8;
   transition: opacity 0.3s;
 }
 
-.floating-mech:hover {
-  transform: scale(1.2);
+.floating-mech::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: #0a0e1a;
+  z-index: 1;
 }
 
 .floating-mech:hover::before {
   opacity: 1;
 }
 
-.fm-1 { top: 10px; left: -30px; background: rgba(0, 195, 255, 0.15); }
-.fm-1::before { background: linear-gradient(135deg, #00c3ff, #0066ff); }
-.fm-2 { top: 50px; right: -40px; background: rgba(123, 47, 255, 0.15); }
-.fm-2::before { background: linear-gradient(135deg, #7b2fff, #ff00aa); }
-.fm-3 { bottom: 80px; left: -50px; background: rgba(255, 0, 170, 0.15); }
-.fm-3::before { background: linear-gradient(135deg, #ff00aa, #ff6600); }
-.fm-4 { bottom: 30px; right: -30px; background: rgba(0, 255, 136, 0.15); }
-.fm-4::before { background: linear-gradient(135deg, #00ff88, #00c3ff); }
-.fm-5 { top: 50%; left: -60px; background: rgba(255, 215, 0, 0.15); }
-.fm-5::before { background: linear-gradient(135deg, #ffd700, #ff6600); }
-.fm-6 { top: 30%; right: -60px; background: rgba(0, 195, 255, 0.15); }
-.fm-6::before { background: linear-gradient(135deg, #00c3ff, #7b2fff); }
+.fm-inner {
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: rgba(10, 14, 26, 0.9);
+  position: relative;
+  z-index: 2;
+}
+
+.fm-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fm-tab {
+  position: absolute;
+  top: -3px;
+  left: 29%;
+  width: 44%;
+  height: 5px;
+  z-index: 10;
+  clip-path: polygon(0% 0%, 100% 0%, 87.5% 100%, 12.5% 100%);
+}
+
+.floating-mech:hover {
+  transform: scale(1.2);
+}
+
+.fm-1 { top: 10px; left: -30px; }
+.fm-1 .fm-tab { background: #00c3ff; }
+.fm-2 { top: 50px; right: -40px; }
+.fm-2 .fm-tab { background: #7b2fff; }
+.fm-3 { bottom: 80px; left: -50px; }
+.fm-3 .fm-tab { background: #ff00aa; }
+.fm-4 { bottom: 30px; right: -30px; }
+.fm-4 .fm-tab { background: #00ff88; }
+.fm-5 { top: 50%; left: -60px; }
+.fm-5 .fm-tab { background: #ffd700; }
+.fm-6 { top: 30%; right: -60px; }
+.fm-6 .fm-tab { background: #00c3ff; }
 
 .floating-mech .fm-stars {
   position: absolute;
@@ -424,41 +485,68 @@ nav a:hover::after {
 }
 
 .mech-card-icon {
-  width: 90px;
-  height: 100px;
+  width: 100px;
+  height: 87px;
   margin: 0 auto 15px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden;
-}
-
-.mech-card-icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .mech-card-icon::before {
   content: '';
   position: absolute;
   inset: -2px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  z-index: -1;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: #00c3ff;
+  z-index: 0;
 }
 
-.mc-blue .mech-card-icon { background: rgba(0, 195, 255, 0.1); }
-.mc-blue .mech-card-icon::before { background: linear-gradient(135deg, #00c3ff, #0066ff); }
-.mc-purple .mech-card-icon { background: rgba(123, 47, 255, 0.1); }
-.mc-purple .mech-card-icon::before { background: linear-gradient(135deg, #7b2fff, #ff00aa); }
-.mc-pink .mech-card-icon { background: rgba(255, 0, 170, 0.1); }
-.mc-pink .mech-card-icon::before { background: linear-gradient(135deg, #ff00aa, #ff6600); }
-.mc-green .mech-card-icon { background: rgba(0, 255, 136, 0.1); }
-.mc-green .mech-card-icon::before { background: linear-gradient(135deg, #00ff88, #00c3ff); }
-.mc-gold .mech-card-icon { background: rgba(255, 215, 0, 0.1); }
-.mc-gold .mech-card-icon::before { background: linear-gradient(135deg, #ffd700, #ff6600); }
+.mech-card-icon::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: #0a0e1a;
+  z-index: 1;
+}
+
+.mech-card-inner {
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: rgba(10, 14, 26, 0.9);
+  position: relative;
+  z-index: 2;
+}
+
+.mech-card-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mech-card-tab {
+  position: absolute;
+  top: -4px;
+  left: 29%;
+  width: 44%;
+  height: 6px;
+  z-index: 10;
+  clip-path: polygon(0% 0%, 100% 0%, 87.5% 100%, 12.5% 100%);
+}
+
+.mc-blue .mech-card-tab { background: #00c3ff; }
+.mc-purple .mech-card-tab { background: #7b2fff; }
+.mc-pink .mech-card-tab { background: #ff00aa; }
+.mc-green .mech-card-tab { background: #00ff88; }
+.mc-gold .mech-card-tab { background: #ffd700; }
+.mc-grey .mech-card-tab { background: #808080; }
 
 .mech-card h3 {
   font-family: 'Orbitron', sans-serif;
@@ -688,13 +776,13 @@ footer .socials a:hover {
   }
 
   .mech-hex {
-    width: 220px;
-    height: 260px;
+    width: 240px;
+    height: 208px;
   }
 
   .floating-mech {
-    width: 50px;
-    height: 55px;
+    width: 55px;
+    height: 48px;
   }
 
   .stats-grid {
