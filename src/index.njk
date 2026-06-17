@@ -69,25 +69,27 @@ description: "Portfolio de robots mecha - Colección exclusiva de mechs de comba
   <h2 class="section-title">ARSENAL COMPLETO</h2>
   <div class="mech-grid">
     {% for mech in mechs | sortBy("position") %}
-    <div class="mech-card mc-{{ mech.color }}">
-      <div class="mech-card-icon">
-        <div class="mech-card-inner">
-          <img src="{{ mech.image | url }}" alt="{{ mech.name }}" loading="lazy">
+    <a href="/mechs/{{ mech.name | slugify }}/" class="mech-card-link">
+      <div class="mech-card mc-{{ mech.color }}">
+        <div class="mech-card-icon">
+          <div class="mech-card-inner">
+            <img src="{{ mech.image | url }}" alt="{{ mech.name }}" loading="lazy">
+          </div>
+          <div class="mech-card-tab"></div>
         </div>
-        <div class="mech-card-tab"></div>
+        <h3>{{ mech.name }}</h3>
+        <div class="role">{{ mech.role }}</div>
+        <div class="stars">
+          {% for i in range(mech.stars) %}
+          <span class="star">★</span>
+          {% endfor %}
+          {% for i in range(5 - mech.stars) %}
+          <span class="star empty">★</span>
+          {% endfor %}
+        </div>
+        <div class="level">LVL <span>{{ mech.level }}</span></div>
       </div>
-      <h3>{{ mech.name }}</h3>
-      <div class="role">{{ mech.role }}</div>
-      <div class="stars">
-        {% for i in range(mech.stars) %}
-        <span class="star">★</span>
-        {% endfor %}
-        {% for i in range(5 - mech.stars) %}
-        <span class="star empty">★</span>
-        {% endfor %}
-      </div>
-      <div class="level">LVL <span>{{ mech.level }}</span></div>
-    </div>
+    </a>
     {% endfor %}
   </div>
 </section>

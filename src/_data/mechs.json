@@ -6,7 +6,8 @@
     "stars": 4,
     "color": "purple",
     "position": 1,
-    "image": "/images/mechas/Aegis.webp"
+    "image": "/images/mechas/Aegis.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   },
   {
     "name": "DEATHWALKER",
@@ -14,8 +15,9 @@
     "level": 9,
     "stars": 5,
     "color": "gold",
-    "position": 2,
-    "image": "/images/mechas/Deathwalker.webp"
+    "position": 43,
+    "image": "/images/mechas/Deathwalker.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   },
   {
     "name": "ECLIPSE",
@@ -24,7 +26,8 @@
     "stars": 5,
     "color": "gold",
     "position": 3,
-    "image": "/images/mechas/Eclipse.webp"
+    "image": "/images/mechas/Eclipse.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   },
   {
     "name": "KILLSHOT",
@@ -33,7 +36,8 @@
     "stars": 4,
     "color": "purple",
     "position": 4,
-    "image": "/images/mechas/Killshot.webp"
+    "image": "/images/mechas/Killshot.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   },
   {
     "name": "LANCER",
@@ -42,7 +46,8 @@
     "stars": 1,
     "color": "grey",
     "position": 5,
-    "image": "/images/mechas/Lancer.webp"
+    "image": "/images/mechas/Lancer.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   },
   {
     "name": "PARAGON",
@@ -51,7 +56,8 @@
     "stars": 1,
     "color": "grey",
     "position": 6,
-    "image": "/images/mechas/Paragon.webp"
+    "image": "/images/mechas/Paragon.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   },
   {
     "name": "PARASITE",
@@ -59,8 +65,9 @@
     "level": 9,
     "stars": 5,
     "color": "gold",
-    "position": 7,
-    "image": "/images/mechas/Parasite.webp"
+    "position": 44,
+    "image": "/images/mechas/Parasite.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   },
   {
     "name": "SOLIS",
@@ -69,7 +76,8 @@
     "stars": 5,
     "color": "gold",
     "position": 8,
-    "image": "/images/mechas/Solis.webp"
+    "image": "/images/mechas/Solis.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   },
   {
     "name": "SURGE",
@@ -78,7 +86,8 @@
     "stars": 5,
     "color": "gold",
     "position": 9,
-    "image": "/images/mechas/Surge.webp"
+    "image": "/images/mechas/Surge.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   },
   {
     "name": "VORTEX",
@@ -87,6 +96,367 @@
     "stars": 5,
     "color": "gold",
     "position": 10,
-    "image": "/images/mechas/Vortex.webp"
+    "image": "/images/mechas/Vortex.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "TITAN",
+    "role": "Tanque Pesado",
+    "level": 8,
+    "stars": 5,
+    "color": "green",
+    "position": 11,
+    "image": "/images/mechas/Titan.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "PHANTOM",
+    "role": "Espectro Furtivo",
+    "level": 7,
+    "stars": 4,
+    "color": "green",
+    "position": 12,
+    "image": "/images/mechas/Phantom.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "REAPER",
+    "role": "Segador Letal",
+    "level": 9,
+    "stars": 5,
+    "color": "green",
+    "position": 13,
+    "image": "/images/mechas/Reaper.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "WARDEN",
+    "role": "Centinela Defensivo",
+    "level": 6,
+    "stars": 4,
+    "color": "green",
+    "position": 14,
+    "image": "/images/mechas/Warden.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "BLITZ",
+    "role": "Asalto Relámpago",
+    "level": 8,
+    "stars": 5,
+    "color": "blue",
+    "position": 15,
+    "image": "/images/mechas/Blitz.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "HAVOC",
+    "role": "Destructor Masivo",
+    "level": 7,
+    "stars": 4,
+    "color": "blue",
+    "position": 16,
+    "image": "/images/mechas/Havoc.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "RAMPART",
+    "role": "Muro Blindado",
+    "level": 5,
+    "stars": 3,
+    "color": "blue",
+    "position": 17,
+    "image": "/images/mechas/Rampart.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "SHADE",
+    "role": "Sombra Letal",
+    "level": 9,
+    "stars": 5,
+    "color": "blue",
+    "position": 18,
+    "image": "/images/mechas/Shade.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "PYRE",
+    "role": "Inferno Ardiente",
+    "level": 7,
+    "stars": 4,
+    "color": "blue",
+    "position": 19,
+    "image": "/images/mechas/Pyre.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "FROST",
+    "role": "Congelador Táctico",
+    "level": 6,
+    "stars": 4,
+    "color": "blue",
+    "position": 20,
+    "image": "/images/mechas/Frost.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "THUNDER",
+    "role": "Tormenta Eléctrica",
+    "level": 8,
+    "stars": 5,
+    "color": "purple",
+    "position": 21,
+    "image": "/images/mechas/Thunder.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "VIPER",
+    "role": "Acecho Venenoso",
+    "level": 7,
+    "stars": 4,
+    "color": "purple",
+    "position": 22,
+    "image": "/images/mechas/Viper.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "ONSLAUGHT",
+    "role": "Acometida Total",
+    "level": 9,
+    "stars": 5,
+    "color": "purple",
+    "position": 23,
+    "image": "/images/mechas/Onslaught.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "DUSK",
+    "role": "Cazador Nocturno",
+    "level": 6,
+    "stars": 3,
+    "color": "purple",
+    "position": 24,
+    "image": "/images/mechas/Dusk.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "DAWN",
+    "role": "Amanecer Radiante",
+    "level": 5,
+    "stars": 3,
+    "color": "purple",
+    "position": 25,
+    "image": "/images/mechas/Dawn.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "WRAITH",
+    "role": "Espectro Vengador",
+    "level": 8,
+    "stars": 5,
+    "color": "purple",
+    "position": 26,
+    "image": "/images/mechas/Wraith.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "STALKER",
+    "role": "Acechador Sigiloso",
+    "level": 7,
+    "stars": 4,
+    "color": "purple",
+    "position": 27,
+    "image": "/images/mechas/Stalker.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "SABER",
+    "role": "Filósofo Letal",
+    "level": 6,
+    "stars": 5,
+    "color": "gold",
+    "position": 28,
+    "image": "/images/mechas/Saber.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "BARRAGE",
+    "role": "Artillería Pesada",
+    "level": 9,
+    "stars": 5,
+    "color": "gold",
+    "position": 29,
+    "image": "/images/mechas/Barrage.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "TEMPEST",
+    "role": "Vendaval Destructor",
+    "level": 7,
+    "stars": 5,
+    "color": "gold",
+    "position": 30,
+    "image": "/images/mechas/Tempest.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "BULWARK",
+    "role": "Baluarte Impenetrable",
+    "level": 8,
+    "stars": 5,
+    "color": "gold",
+    "position": 31,
+    "image": "/images/mechas/Bulwark.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "SHADOW",
+    "role": "Penumbra Asesina",
+    "level": 9,
+    "stars": 5,
+    "color": "gold",
+    "position": 32,
+    "image": "/images/mechas/Shadow.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "VENOM",
+    "role": "Toxina Letal",
+    "level": 7,
+    "stars": 5,
+    "color": "gold",
+    "position": 33,
+    "image": "/images/mechas/Venom.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "JUSTICE",
+    "role": "Juez Implacable",
+    "level": 6,
+    "stars": 5,
+    "color": "gold",
+    "position": 34,
+    "image": "/images/mechas/Justice.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "FURY",
+    "role": "Ira Desatada",
+    "level": 8,
+    "stars": 5,
+    "color": "gold",
+    "position": 35,
+    "image": "/images/mechas/Fury.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "VALOR",
+    "role": "Guerrero Noble",
+    "level": 5,
+    "stars": 5,
+    "color": "gold",
+    "position": 36,
+    "image": "/images/mechas/Valor.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "CHAOS",
+    "role": "Caos Primordial",
+    "level": 9,
+    "stars": 5,
+    "color": "gold",
+    "position": 37,
+    "image": "/images/mechas/Chaos.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "STORM",
+    "role": "Huracán de Acero",
+    "level": 7,
+    "stars": 5,
+    "color": "gold",
+    "position": 38,
+    "image": "/images/mechas/Storm.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "GLACIER",
+    "role": "Hielo Perpetuo",
+    "level": 6,
+    "stars": 5,
+    "color": "gold",
+    "position": 39,
+    "image": "/images/mechas/Glacier.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "INFERNO",
+    "role": "Fuego Eterno",
+    "level": 8,
+    "stars": 5,
+    "color": "gold",
+    "position": 40,
+    "image": "/images/mechas/Inferno.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "CYBER",
+    "role": "Señor Digital",
+    "level": 7,
+    "stars": 5,
+    "color": "gold",
+    "position": 42,
+    "image": "/images/mechas/Cyber.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "OMEGA",
+    "role": "Último Recurso",
+    "level": 9,
+    "stars": 5,
+    "color": "gold",
+    "position": 41,
+    "image": "/images/mechas/Omega.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "DELTA",
+    "role": "Fuerza Táctica",
+    "level": 6,
+    "stars": 5,
+    "color": "gold",
+    "position": 45,
+    "image": "/images/mechas/Delta.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "SIGMA",
+    "role": "Estratega Letal",
+    "level": 8,
+    "stars": 5,
+    "color": "gold",
+    "position": 46,
+    "image": "/images/mechas/Sigma.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "NEXUS",
+    "role": "Núcleo de Poder",
+    "level": 7,
+    "stars": 4,
+    "color": "gold",
+    "position": 47,
+    "image": "/images/mechas/Nexus.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
+  },
+  {
+    "name": "PRIME",
+    "role": "Comandante Supremo",
+    "level": 9,
+    "stars": 5,
+    "color": "gold",
+    "position": 48,
+    "image": "/images/mechas/Prime.webp",
+    "description": "Un mecha de la colección MECH ARENA. Diseñado para el combate táctico con tecnología de vanguardia y capacidad de adaptación en el campo de batalla. Equipado con sistemas de armas avanzados, blindaje reforzado y módulos de mejora intercambiables. Cada unidad es única y ha sido calibrada para maximizar su rendimiento en diferentes escenarios de combate, desde asaltos relámpago hasta defensas prolongadas. Los sensores de última generación permiten una conciencia situacional superior, mientras que los sistemas de soporte vital mejorados garantizan la operatividad en condiciones extremas."
   }
 ]

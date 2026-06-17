@@ -7,6 +7,10 @@ export default function(eleventyConfig) {
     [...arr].sort((a, b) => (a[key] ?? 0) - (b[key] ?? 0))
   );
 
+  eleventyConfig.addFilter("slugify", (str) =>
+    String(str).toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')
+  );
+
   const isCI = process.env.CI === "true";
 
   return {
