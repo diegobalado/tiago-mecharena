@@ -94,6 +94,7 @@ header {
   font-weight: 900;
   background: linear-gradient(135deg, #00c3ff, #7b2fff, #ff00aa);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 3px;
 }
@@ -166,6 +167,7 @@ nav a:hover::after {
 .hero-text h1 .highlight {
   background: linear-gradient(135deg, #00c3ff, #7b2fff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -191,6 +193,7 @@ nav a:hover::after {
   font-weight: 900;
   background: linear-gradient(135deg, #00c3ff, #7b2fff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -714,6 +717,7 @@ nav a:hover::after {
   font-weight: 900;
   background: linear-gradient(135deg, #00c3ff, #7b2fff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -1031,6 +1035,7 @@ footer .socials a:hover {
   font-weight: 900;
   background: linear-gradient(135deg, #00c3ff, #7b2fff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
