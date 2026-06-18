@@ -16,7 +16,7 @@ eleventyComputed:
 
   <div class="profile-header">
     <div class="profile-hex mc-{{ mech.color }}">
-      <div class="profile-hex-outer">
+      <div class="profile-hex-outer" style="view-transition-name: m-{{ mech.name | slugify }}">
         <div class="profile-hex-inner">
           <img src="{{ mech.image | url }}" alt="{{ mech.name }}" loading="eager">
         </div>
@@ -68,22 +68,22 @@ eleventyComputed:
     <div class="profile-skill-list">
       <div class="profile-skill">
         <span class="skill-label">Potencia de Fuego</span>
-        <div class="skill-bar"><div class="skill-fill" style="width: {{ 50 + mech.level * 5 + mech.stars * 4 }}%"></div></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="{{ 50 + mech.level * 5 + mech.stars * 4 }}"></div></div>
         <span class="skill-value">{{ 50 + mech.level * 5 + mech.stars * 4 }}%</span>
       </div>
       <div class="profile-skill">
         <span class="skill-label">Resistencia</span>
-        <div class="skill-bar"><div class="skill-fill" style="width: {{ 40 + mech.level * 4 + mech.stars * 6 }}%"></div></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="{{ 40 + mech.level * 4 + mech.stars * 6 }}"></div></div>
         <span class="skill-value">{{ 40 + mech.level * 4 + mech.stars * 6 }}%</span>
       </div>
       <div class="profile-skill">
         <span class="skill-label">Movilidad</span>
-        <div class="skill-bar"><div class="skill-fill" style="width: {{ 30 + mech.level * 3 + mech.stars * 8 }}%"></div></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="{{ 30 + mech.level * 3 + mech.stars * 8 }}"></div></div>
         <span class="skill-value">{{ 30 + mech.level * 3 + mech.stars * 8 }}%</span>
       </div>
       <div class="profile-skill">
         <span class="skill-label">Precisión</span>
-        <div class="skill-bar"><div class="skill-fill" style="width: {{ 60 + mech.level * 2 + mech.stars * 5 }}%"></div></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="{{ 60 + mech.level * 2 + mech.stars * 5 }}"></div></div>
         <span class="skill-value">{{ 60 + mech.level * 2 + mech.stars * 5 }}%</span>
       </div>
     </div>

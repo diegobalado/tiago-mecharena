@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@view-transition {
+  navigation: auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +11,7 @@
 }
 
 body {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   background: #0a0e1a;
   color: #fff;
   overflow-x: hidden;
@@ -27,8 +31,12 @@ body {
 }
 
 @keyframes gridMove {
-  0% { transform: perspective(500px) rotateX(60deg) translateY(0); }
-  100% { transform: perspective(500px) rotateX(60deg) translateY(50px); }
+  0% {
+    transform: perspective(500px) rotateX(60deg) translateY(0);
+  }
+  100% {
+    transform: perspective(500px) rotateX(60deg) translateY(50px);
+  }
 }
 
 .bg-glow {
@@ -56,8 +64,14 @@ body {
 }
 
 @keyframes pulse {
-  0% { opacity: 0.1; transform: scale(1); }
-  100% { opacity: 0.2; transform: scale(1.1); }
+  0% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scale(1.1);
+  }
 }
 
 /* Header */
@@ -75,7 +89,7 @@ header {
 }
 
 .logo {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 1.8rem;
   font-weight: 900;
   background: linear-gradient(135deg, #00c3ff, #7b2fff, #ff00aa);
@@ -107,7 +121,7 @@ nav a {
 }
 
 nav a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -142,7 +156,7 @@ nav a:hover::after {
 }
 
 .hero-text h1 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.1;
@@ -172,7 +186,7 @@ nav a:hover::after {
 }
 
 .stat-number {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
   background: linear-gradient(135deg, #00c3ff, #7b2fff);
@@ -208,7 +222,7 @@ nav a:hover::after {
 }
 
 .mech-hex::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -218,7 +232,7 @@ nav a:hover::after {
 }
 
 .mech-hex::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -257,13 +271,22 @@ nav a:hover::after {
 }
 
 @keyframes mechFloat {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes borderGlow {
-  0% { opacity: 0.5; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .mech-stars {
@@ -300,8 +323,12 @@ nav a:hover::after {
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Floating mech cards */
@@ -317,7 +344,7 @@ nav a:hover::after {
 }
 
 .floating-mech::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -328,7 +355,7 @@ nav a:hover::after {
 }
 
 .floating-mech::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: -1px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -371,20 +398,51 @@ nav a:hover::after {
 
 .floating-mech:hover {
   transform: scale(1.2);
+  filter: brightness(1.3);
 }
 
-.fm-1 { top: 10px; left: -30px; }
-.fm-1 .fm-tab { background: #00c3ff; }
-.fm-2 { top: 50px; right: -40px; }
-.fm-2 .fm-tab { background: #7b2fff; }
-.fm-3 { bottom: 80px; left: -50px; }
-.fm-3 .fm-tab { background: #ff00aa; }
-.fm-4 { bottom: 30px; right: -30px; }
-.fm-4 .fm-tab { background: #00ff88; }
-.fm-5 { top: 50%; left: -60px; }
-.fm-5 .fm-tab { background: #ffd700; }
-.fm-6 { top: 30%; right: -60px; }
-.fm-6 .fm-tab { background: #00c3ff; }
+.fm-1 {
+  top: 10px;
+  left: -30px;
+}
+.fm-1 .fm-tab {
+  background: #00c3ff;
+}
+.fm-2 {
+  top: 50px;
+  right: -40px;
+}
+.fm-2 .fm-tab {
+  background: #7b2fff;
+}
+.fm-3 {
+  bottom: 80px;
+  left: -50px;
+}
+.fm-3 .fm-tab {
+  background: #ff00aa;
+}
+.fm-4 {
+  bottom: 30px;
+  right: -30px;
+}
+.fm-4 .fm-tab {
+  background: #00ff88;
+}
+.fm-5 {
+  top: 50%;
+  left: -60px;
+}
+.fm-5 .fm-tab {
+  background: #ffd700;
+}
+.fm-6 {
+  top: 30%;
+  right: -60px;
+}
+.fm-6 .fm-tab {
+  background: #00c3ff;
+}
 
 .floating-mech .fm-stars {
   position: absolute;
@@ -416,7 +474,9 @@ nav a:hover::after {
 }
 
 @keyframes dash {
-  to { stroke-dashoffset: -20; }
+  to {
+    stroke-dashoffset: -20;
+  }
 }
 
 /* Collection Section */
@@ -427,7 +487,7 @@ nav a:hover::after {
 }
 
 .section-title {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 50px;
@@ -435,7 +495,7 @@ nav a:hover::after {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   display: block;
   width: 100px;
   height: 3px;
@@ -466,12 +526,14 @@ nav a:hover::after {
   padding: 30px 20px;
   text-align: center;
   cursor: pointer;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition:
+    border-color 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    box-shadow 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   overflow: hidden;
 }
 
 .mech-card::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: linear-gradient(135deg, transparent, rgba(0, 195, 255, 0.05));
@@ -480,7 +542,6 @@ nav a:hover::after {
 }
 
 .mech-card:hover {
-  transform: translateY(-10px);
   border-color: rgba(0, 195, 255, 0.4);
   box-shadow: 0 20px 40px rgba(0, 195, 255, 0.1);
 }
@@ -500,7 +561,7 @@ nav a:hover::after {
 }
 
 .mech-card-icon::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -509,7 +570,7 @@ nav a:hover::after {
 }
 
 .mech-card-icon::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: -1px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -546,15 +607,27 @@ nav a:hover::after {
   clip-path: polygon(0% 0%, 100% 0%, 87.5% 100%, 12.5% 100%);
 }
 
-.mc-blue .mech-card-tab { background: #00c3ff; }
-.mc-purple .mech-card-tab { background: #7b2fff; }
-.mc-pink .mech-card-tab { background: #ff00aa; }
-.mc-green .mech-card-tab { background: #00ff88; }
-.mc-gold .mech-card-tab { background: #ffd700; }
-.mc-grey .mech-card-tab { background: #808080; }
+.mc-blue .mech-card-tab {
+  background: #00c3ff;
+}
+.mc-purple .mech-card-tab {
+  background: #7b2fff;
+}
+.mc-pink .mech-card-tab {
+  background: #ff00aa;
+}
+.mc-green .mech-card-tab {
+  background: #00ff88;
+}
+.mc-gold .mech-card-tab {
+  background: #ffd700;
+}
+.mc-grey .mech-card-tab {
+  background: #808080;
+}
 
 .mech-card h3 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 0.95rem;
   margin-bottom: 8px;
   letter-spacing: 1px;
@@ -600,7 +673,12 @@ nav a:hover::after {
 
 /* Stats Section */
 .stats-section {
-  background: linear-gradient(180deg, transparent, rgba(0, 195, 255, 0.03), transparent);
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(0, 195, 255, 0.03),
+    transparent
+  );
 }
 
 .stats-grid {
@@ -631,7 +709,7 @@ nav a:hover::after {
 }
 
 .stat-card .value {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 2rem;
   font-weight: 900;
   background: linear-gradient(135deg, #00c3ff, #7b2fff);
@@ -663,7 +741,7 @@ nav a:hover::after {
 
 .progress-label {
   width: 120px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 0.8rem;
   text-align: right;
   color: rgba(255, 255, 255, 0.6);
@@ -679,6 +757,7 @@ nav a:hover::after {
 
 .progress-fill {
   height: 100%;
+  width: 0%;
   border-radius: 4px;
   background: linear-gradient(90deg, #00c3ff, #7b2fff);
   transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -686,7 +765,7 @@ nav a:hover::after {
 }
 
 .progress-fill::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   top: 0;
@@ -698,13 +777,18 @@ nav a:hover::after {
 }
 
 @keyframes shimmer {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 1; }
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 .progress-value {
   width: 50px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 0.9rem;
   color: #00c3ff;
 }
@@ -815,7 +899,7 @@ footer .socials a:hover {
 }
 
 .profile-hex-outer::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -825,7 +909,7 @@ footer .socials a:hover {
 }
 
 .profile-hex-outer::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: -1px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -863,7 +947,7 @@ footer .socials a:hover {
 }
 
 .profile-info h1 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 3rem;
   margin-bottom: 10px;
 }
@@ -942,7 +1026,7 @@ footer .socials a:hover {
 }
 
 .profile-stat-card .ps-value {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 1.6rem;
   font-weight: 900;
   background: linear-gradient(135deg, #00c3ff, #7b2fff);
@@ -967,7 +1051,7 @@ footer .socials a:hover {
 }
 
 .profile-skills h2 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 1.2rem;
   text-align: center;
   margin-bottom: 30px;
@@ -1003,6 +1087,7 @@ footer .socials a:hover {
 
 .skill-fill {
   height: 100%;
+  width: 0%;
   border-radius: 5px;
   background: linear-gradient(90deg, #00c3ff, #7b2fff);
   transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1010,7 +1095,7 @@ footer .socials a:hover {
 
 .skill-value {
   width: 50px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 0.85rem;
   color: #00c3ff;
 }

@@ -71,7 +71,7 @@ description: "Portfolio de robots mecha - Colección exclusiva de mechs de comba
     {% for mech in mechs | sortBy("position") %}
     <a href="/mechs/{{ mech.name | slugify }}/" class="mech-card-link">
       <div class="mech-card mc-{{ mech.color }}">
-        <div class="mech-card-icon">
+        <div class="mech-card-icon" style="view-transition-name: m-{{ mech.name | slugify }}">
           <div class="mech-card-inner">
             <img src="{{ mech.image | url }}" alt="{{ mech.name }}" loading="lazy">
           </div>
