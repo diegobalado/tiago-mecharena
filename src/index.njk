@@ -67,9 +67,29 @@ description: "Portfolio de robots mecha - Colección exclusiva de mechs de comba
 
 <section class="section" id="coleccion">
   <h2 class="section-title">ARSENAL COMPLETO</h2>
+  <div class="filters">
+    <div class="filter-group">
+      <label>ROL</label>
+      <select id="filterRole">
+        <option value="all">Todos</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>CLASE</label>
+      <select id="filterClass">
+        <option value="all">Todas</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>NIVEL</label>
+      <select id="filterLevel">
+        <option value="all">Todos</option>
+      </select>
+    </div>
+  </div>
   <div class="mech-grid">
     {% for mech in mechs | sortBy("position") %}
-    <a href="{{ ('/mechs/' + (mech.name | slugify) + '/') | url }}" class="mech-card-link">
+    <a href="{{ ('/mechs/' + (mech.name | slugify) + '/') | url }}" class="mech-card-link" data-role="{{ mech.role }}" data-class="{{ mech.color }}" data-level="{{ mech.level }}">
       <div class="mech-card mc-{{ mech.color }}">
         <div class="mech-card-icon" style="view-transition-name: m-{{ mech.name | slugify }}">
           <div class="mech-card-inner">

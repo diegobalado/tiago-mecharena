@@ -15,10 +15,10 @@
   <div class="scroll-indicator" id="scrollIndicator"></div>
 
   <header>
-    <div class="logo">
+    <a href="{{ '/' | url }}" class="logo">
       {{ site.title }}
       <span>{{ site.subtitle }}</span>
-    </div>
+    </a>
     <nav>
       {% for item in navigation %}
       <a href="{{ item.url }}">{{ item.label }}</a>

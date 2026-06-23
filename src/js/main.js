@@ -39,6 +39,77 @@ window.addEventListener("pagereveal", () => {
   }
 });
 
+// Filters
+const filterRole = document.getElementById("filterRole");
+const filterClass = document.getElementById("filterClass");
+const filterLevel = document.getElementById("filterLevel");
+const mechLinks = document.querySelectorAll(".mech-card-link");
+
+function populateFilters() {
+  const roles = new Set();
+  const classes = new Set();
+  const levels = new Set();
+
+  mechLinks.forEach((link) => {
+    roles.add(link.dataset.role);
+    classes.add(link.dataset.class);
+    levels.add(link.dataset.level);
+  });
+
+  ["Atacante", "Explorador", "Tanque", "Apoyo"].forEach((role) => {
+    const opt = document.createElement("option");
+    opt.value = role;
+    opt.textContent = role;
+    filterRole.appendChild(opt);
+  });
+
+  const classOrder = ["grey", "green", "blue", "purple", "gold"];
+  const classLabels = {
+    grey: "Normal",
+    green: "Infrecuente",
+    blue: "Raro",
+    purple: "Épico",
+    gold: "Legendario",
+  };
+
+  classOrder.forEach((cls) => {
+    if (classes.has(cls)) {
+      const opt = document.createElement("option");
+      opt.value = cls;
+      opt.textContent = classLabels[cls];
+      filterClass.appendChild(opt);
+    }
+  });
+
+  [1, 2, 3, 4, 5, 6, 8, 9, 10].forEach((lvl) => {
+    const opt = document.createElement("option");
+    opt.value = lvl;
+    opt.textContent = lvl;
+    filterLevel.appendChild(opt);
+  });
+}
+
+function applyFilters() {
+  const role = filterRole.value;
+  const cls = filterClass.value;
+  const level = filterLevel.value;
+
+  mechLinks.forEach((link) => {
+    const matchRole = role === "all" || link.dataset.role.toLowerCase().includes(role.toLowerCase());
+    const matchClass = cls === "all" || link.dataset.class === cls;
+    const matchLevel = level === "all" || link.dataset.level === level;
+
+    link.style.display = matchRole && matchClass && matchLevel ? "" : "none";
+  });
+}
+
+if (filterRole) {
+  populateFilters();
+  filterRole.addEventListener("change", applyFilters);
+  filterClass.addEventListener("change", applyFilters);
+  filterLevel.addEventListener("change", applyFilters);
+}
+
 // Card tilt effect
 document.querySelectorAll(".mech-card").forEach((card) => {
   card.addEventListener("mouseenter", () => {
