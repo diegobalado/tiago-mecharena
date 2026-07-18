@@ -81,7 +81,7 @@ function populateFilters() {
     }
   });
 
-  [1, 2, 3, 4, 5, 6, 8, 9, 10].forEach((lvl) => {
+  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].forEach((lvl) => {
     const opt = document.createElement("option");
     opt.value = lvl;
     opt.textContent = lvl;

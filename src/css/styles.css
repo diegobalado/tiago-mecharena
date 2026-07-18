@@ -225,6 +225,8 @@ nav a:hover::after {
   align-items: center;
   justify-content: center;
   animation: mechFloat 3s ease-in-out infinite;
+  color: inherit;
+  text-decoration: none;
 }
 
 .mech-hex::before {
@@ -1051,35 +1053,60 @@ footer .socials a:hover {
 }
 
 /* Profile Stats Grid */
-.profile-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-bottom: 50px;
+/* Profile Stats Numbers */
+.profile-stats-numbers {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 195, 255, 0.15);
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 40px;
 }
 
-.profile-stat-card {
+.profile-stats-numbers h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+  color: #00c3ff;
+  text-transform: uppercase;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 15px;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(0, 195, 255, 0.1);
   border-radius: 12px;
-  padding: 25px;
-  text-align: center;
   transition: all 0.3s;
 }
 
-.profile-stat-card:hover {
+.stat-item:hover {
   border-color: rgba(0, 195, 255, 0.3);
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
-.profile-stat-card .ps-icon {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
-
-.profile-stat-card .ps-value {
+.stat-item .stat-label {
   font-family: "Orbitron", sans-serif;
-  font-size: 1.6rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+.stat-item .stat-value {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4rem;
   font-weight: 900;
   background: linear-gradient(135deg, #00c3ff, #7b2fff);
   -webkit-background-clip: text;
@@ -1087,70 +1114,16 @@ footer .socials a:hover {
   -webkit-text-fill-color: transparent;
 }
 
-.profile-stat-card .ps-label {
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.4);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 5px;
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-/* Profile Skills */
-.profile-skills {
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(0, 195, 255, 0.08);
-  border-radius: 16px;
-  padding: 40px;
-}
-
-.profile-skills h2 {
-  font-family: "Orbitron", sans-serif;
-  font-size: 1.2rem;
-  text-align: center;
-  margin-bottom: 30px;
-  letter-spacing: 2px;
-}
-
-.profile-skill-list {
-  display: grid;
-  gap: 18px;
-}
-
-.profile-skill {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.skill-label {
-  width: 150px;
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.6);
-  text-align: right;
-  letter-spacing: 1px;
-}
-
-.skill-bar {
-  flex: 1;
-  height: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.skill-fill {
-  height: 100%;
-  width: 0%;
-  border-radius: 5px;
-  background: linear-gradient(90deg, #00c3ff, #7b2fff);
-  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.skill-value {
-  width: 50px;
-  font-family: "Orbitron", sans-serif;
-  font-size: 0.85rem;
-  color: #00c3ff;
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1167,20 +1140,6 @@ footer .socials a:hover {
 
   .profile-info h1 {
     font-size: 2rem;
-  }
-
-  .profile-stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .profile-skill {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .skill-label {
-    width: 100%;
-    text-align: center;
   }
 }
 
